@@ -1,0 +1,38 @@
+@import "../../Styles/Helpers/Variables.scss";
+@import "../../Styles/Helpers/Functions.scss";
+.modal {
+  position: fixed;
+  border: $border-layout;
+  padding: $padding-layout--secondary;
+  @include centered-content;
+  width: 35%;
+  aspect-ratio: 1/0.6;
+  flex-direction: column;
+  justify-content: space-evenly;
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  gap: 1rem;
+  z-index: 1000;
+  background-color: white;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.636);
+  inset: 0;
+}
+
+.btn {
+  @include button-modal;
+}

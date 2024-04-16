@@ -1,0 +1,20 @@
+.price {
+  width: -moz-min-content;
+  width: min-content;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price h1 {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #b59410;
+}
+.price span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #b59410;
+}/*# sourceMappingURL=PriceContentCard.module.css.map */

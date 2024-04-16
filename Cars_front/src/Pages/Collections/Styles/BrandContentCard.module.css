@@ -1,0 +1,15 @@
+.brand {
+  width: -moz-min-content;
+  width: min-content;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand h1 {
+  font-family: chocolateBox;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}/*# sourceMappingURL=BrandContentCard.module.css.map */

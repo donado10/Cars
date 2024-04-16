@@ -1,0 +1,19 @@
+.custom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  width: 35%;
+  gap: 1.5rem;
+}
+
+dialog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  width: 35%;
+  gap: 1.5rem;
+  border: 1px solid #b59410;
+  padding: 1rem;
+}/*# sourceMappingURL=CollectionsForm.module.css.map */

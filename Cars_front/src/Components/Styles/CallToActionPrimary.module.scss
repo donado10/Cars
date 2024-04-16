@@ -1,0 +1,12 @@
+@import "../../Styles/Helpers/Variables.scss";
+@import "../../Styles/Helpers/Functions.scss";
+.cta {
+  cursor: pointer;
+  & > a {
+    @include navLink;
+  }
+
+  & > a.active {
+    color: #b59410;
+  }
+}

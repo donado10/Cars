@@ -1,0 +1,11 @@
+.nav__ctas {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.nav__cta {
+  font-size: 1.5rem;
+  font-weight: 700;
+}/*# sourceMappingURL=Header.module.css.map */

@@ -1,0 +1,15 @@
+.year {
+  width: -moz-min-content;
+  width: min-content;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.year h1 {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 0.5rem;
+}/*# sourceMappingURL=YearContentCard.module.css.map */

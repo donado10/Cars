@@ -1,0 +1,8 @@
+.custom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  width: 35%;
+  gap: 1.5rem;
+}/*# sourceMappingURL=SignUpForm.module.css.map */

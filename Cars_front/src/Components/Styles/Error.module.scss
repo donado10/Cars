@@ -1,0 +1,9 @@
+@import "../../Styles/Helpers/Functions.scss";
+@import "../../Styles/Helpers/Variables.scss";
+
+.error {
+  @include centered-content;
+  font-size: 4.5rem;
+  flex-grow: 1;
+  text-align: center;
+}

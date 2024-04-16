@@ -1,0 +1,13 @@
+@import "../../../Styles/Helpers/Variables.scss";
+@import "../../../Styles/Helpers/Functions.scss";
+
+.brand__logo {
+  width: 2rem;
+  aspect-ratio: 1/1;
+
+  @include centered-content;
+
+  img {
+    width: 100%;
+  }
+}

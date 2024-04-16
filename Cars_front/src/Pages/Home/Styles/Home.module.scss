@@ -1,0 +1,5 @@
+@import "../Helpers/Functions.scss";
+.centered {
+  @include centered-content;
+  flex-grow: 1;
+}

@@ -1,0 +1,10 @@
+@import "../../../Styles/Helpers/Variables.scss";
+@import "../../../Styles/Helpers/Functions.scss";
+
+.card__list {
+  width: 100%;
+  @include centered-content;
+
+  padding: $padding-layout--secondary;
+  gap: $gap-content--secondary;
+}

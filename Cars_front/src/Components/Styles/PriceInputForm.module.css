@@ -1,0 +1,19 @@
+.price__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price__input .label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.price__input .field {
+  border: 1px solid black;
+  width: 60%;
+  aspect-ratio: 1/0.1;
+  border-radius: 0.25rem;
+  outline-color: #b59410;
+}
+.price__input .field:focus {
+  border: 1px solid #b59410;
+}/*# sourceMappingURL=PriceInputForm.module.css.map */

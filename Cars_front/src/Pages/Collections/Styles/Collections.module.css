@@ -1,0 +1,9 @@
+.card__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  align-content: center;
+  justify-items: center;
+  padding: 1rem;
+  gap: 1.5rem;
+}/*# sourceMappingURL=Collections.module.css.map */

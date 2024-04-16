@@ -1,0 +1,27 @@
+.add__choice {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add__choice button {
+  width: 15rem;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  font-weight: 700;
+}
+
+.add__choice--collections:hover,
+.add__choice--collections:active,
+.add__choice--collections.active {
+  background-color: aqua;
+}
+
+.add__choice--cars:hover,
+.add__choice--cars:active,
+.add__choice--cars.active {
+  background-color: gold;
+}/*# sourceMappingURL=AddToggle.module.css.map */

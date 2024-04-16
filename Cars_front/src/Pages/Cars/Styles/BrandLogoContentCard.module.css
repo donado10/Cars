@@ -1,0 +1,10 @@
+.brand__logo {
+  width: 2rem;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand__logo img {
+  width: 100%;
+}/*# sourceMappingURL=BrandLogoContentCard.module.css.map */

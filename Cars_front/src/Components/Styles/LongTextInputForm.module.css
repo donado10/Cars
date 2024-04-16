@@ -1,0 +1,22 @@
+.long-text__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.long-text__input .label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.long-text__input .field {
+  border: 1px solid black;
+  width: 60%;
+  aspect-ratio: 1/0.1;
+  border-radius: 0.25rem;
+  outline-color: #b59410;
+}
+.long-text__input .field:focus {
+  border: 1px solid #b59410;
+}
+.long-text__input .field {
+  aspect-ratio: 1/0.5;
+}/*# sourceMappingURL=LongTextInputForm.module.css.map */

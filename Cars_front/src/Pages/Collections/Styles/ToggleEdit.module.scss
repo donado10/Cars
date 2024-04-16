@@ -1,0 +1,26 @@
+@import "../../../Styles/Helpers/Functions.scss";
+
+.toggle {
+  width: min-content;
+  align-self: end;
+  display: flex;
+  align-items: center;
+
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+
+    color: white;
+    border: 1px solid #b59410;
+
+    &:hover {
+      background-color: #b59410;
+      color: white;
+    }
+
+    &.active {
+      background-color: #b59410;
+      color: white;
+    }
+  }
+}

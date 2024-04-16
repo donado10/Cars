@@ -1,0 +1,11 @@
+@import "../../../Styles/Helpers/Variables.scss";
+
+.image {
+  aspect-ratio: 1/1;
+  width: 100%;
+
+  img {
+    aspect-ratio: 1/1;
+    width: 100%;
+  }
+}
