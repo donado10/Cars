@@ -1,0 +1,16 @@
+.cta {
+  cursor: pointer;
+}
+.cta > a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+  font-family: chocolateBox;
+  letter-spacing: 4px;
+}
+.cta > a:hover {
+  color: #b59410;
+}
+.cta > a.active {
+  color: #b59410;
+}/*# sourceMappingURL=CallToActionPrimary.module.css.map */

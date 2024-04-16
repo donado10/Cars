@@ -1,0 +1,9 @@
+@import "../../Styles/Helpers/Variables.scss";
+@import "../../Styles/Helpers/Functions.scss";
+
+.long-text__input {
+  @include input-form;
+  .field {
+    aspect-ratio: 1/0.5;
+  }
+}

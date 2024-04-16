@@ -1,0 +1,21 @@
+.toggle {
+  width: -moz-min-content;
+  width: min-content;
+  align-self: end;
+  display: flex;
+  align-items: center;
+}
+.toggle button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  border: 1px solid #b59410;
+}
+.toggle button:hover {
+  background-color: #b59410;
+  color: white;
+}
+.toggle button.active {
+  background-color: #b59410;
+  color: white;
+}/*# sourceMappingURL=ToggleEdit.module.css.map */

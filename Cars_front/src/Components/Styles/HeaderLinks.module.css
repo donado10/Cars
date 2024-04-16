@@ -1,0 +1,19 @@
+.nav__links {
+  width: 50%;
+  display: flex;
+  gap: 4rem;
+}
+
+.nav__link > a {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+  font-family: chocolateBox;
+  letter-spacing: 4px;
+}
+.nav__link > a:hover {
+  color: #b59410;
+}
+.nav__link > a.active {
+  color: #b59410;
+}/*# sourceMappingURL=HeaderLinks.module.css.map */

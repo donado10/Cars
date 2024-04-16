@@ -1,0 +1,114 @@
+@import "./Variables.scss";
+
+@mixin centered-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin layout-primary {
+  border: $border-layout;
+  border-radius: $border-radius-primary;
+  padding: $padding-layout--primary;
+}
+
+@mixin button-primary {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: $border-radius-secondary;
+}
+
+@mixin button-card {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: $border-radius-secondary;
+
+  color: #b59410;
+  border: 1px solid #b59410;
+
+  &:hover {
+    background-color: #b59410;
+    color: white;
+  }
+}
+
+@mixin button-form {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: $border-radius-secondary;
+
+  color: #b59410;
+  border: 1px solid #b59410;
+
+  &:hover {
+    background-color: #b59410;
+    color: white;
+  }
+}
+
+@mixin button-modal {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: $border-radius-secondary;
+
+  color: #b59410;
+  border: 1px solid #b59410;
+
+  &:hover {
+    background-color: #b59410;
+    color: white;
+  }
+}
+
+@mixin navLink {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+
+  font-family: chocolateBox;
+  letter-spacing: 4px;
+
+  &:hover {
+    color: #b59410;
+  }
+}
+
+@mixin cardLink {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: $border-radius-secondary;
+
+  color: #b59410;
+  border: 1px solid #b59410;
+
+  &:hover {
+    background-color: #b59410;
+    color: white;
+  }
+}
+
+@mixin input-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .label {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .field {
+    border: 1px solid black;
+    width: 60%;
+    aspect-ratio: 1/0.1;
+    border-radius: $border-radius-third;
+    outline-color: #b59410;
+    &:focus {
+      border: 1px solid #b59410;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../Styles/Helpers/Variables.scss";
+@import "../../Styles/Helpers/Functions.scss";
+
+.nav__links {
+  width: 50%;
+  display: flex;
+  gap: 4rem;
+}
+.nav__link {
+  & > a {
+    @include navLink;
+  }
+
+  & > a.active {
+    color: #b59410;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../../Styles/Helpers/Variables.scss";
+@import "../../../Styles/Helpers/Functions.scss";
+
+.model {
+  height: 10%;
+  @include centered-content;
+
+  h1 {
+    font-family: chocolateBox;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}

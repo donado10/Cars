@@ -1,0 +1,35 @@
+@font-face {
+  font-family: chocolateBox;
+  src: url("C:/Users/LBC/Desktop/Web projects/FullStack/Cars/Font_family/C_BOX.TTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background: #746b38;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+}/*# sourceMappingURL=App.css.map */

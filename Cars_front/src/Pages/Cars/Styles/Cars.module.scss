@@ -1,0 +1,21 @@
+@import "../../../Styles/Helpers/Variables.scss";
+
+.card__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  align-content: center;
+  justify-items: center;
+
+  padding: $padding-layout--secondary;
+  gap: $gap-content--secondary;
+}
+
+.card {
+  width: 20rem;
+  aspect-ratio: 1/1.5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

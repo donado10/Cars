@@ -1,0 +1,8 @@
+@import "../../Styles/Helpers/Variables.scss";
+@import "../../Styles/Helpers/Functions.scss";
+
+.cta {
+  a {
+    @include cardLink;
+  }
+}

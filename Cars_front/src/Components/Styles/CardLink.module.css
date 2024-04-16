@@ -1,0 +1,12 @@
+.cta a {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #b59410;
+  border: 1px solid #b59410;
+}
+.cta a:hover {
+  background-color: #b59410;
+  color: white;
+}/*# sourceMappingURL=CardLink.module.css.map */

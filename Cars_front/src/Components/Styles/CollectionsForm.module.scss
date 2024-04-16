@@ -1,0 +1,22 @@
+@import "../../Styles/Helpers/Variables.scss";
+@import "../../Styles/Helpers/Functions.scss";
+
+.custom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  width: 35%;
+  gap: $gap-content--secondary;
+}
+
+dialog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  width: 35%;
+  gap: $gap-content--secondary;
+  border: $border-layout;
+  padding: $padding-layout--secondary;
+}

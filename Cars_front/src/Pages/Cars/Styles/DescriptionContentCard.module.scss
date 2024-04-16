@@ -1,0 +1,16 @@
+@import "../../../Styles/Helpers/Variables.scss";
+@import "../../../Styles/Helpers/Functions.scss";
+
+.description {
+  width: 100%;
+  height: 20%;
+
+  @include centered-content;
+  text-align: center;
+  p {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+}

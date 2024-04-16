@@ -1,0 +1,15 @@
+@import "../../../Styles/Helpers/Variables.scss";
+@import "../../../Styles/Helpers/Functions.scss";
+
+.year {
+  width: min-content;
+  height: 10%;
+  @include centered-content;
+  h1 {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 0.5rem;
+  }
+}

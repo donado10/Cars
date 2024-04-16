@@ -1,0 +1,9 @@
+.file__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.file__input input {
+  width: 60%;
+  aspect-ratio: 1/0.1;
+}/*# sourceMappingURL=FileInputForm.module.css.map */

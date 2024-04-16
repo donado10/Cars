@@ -1,0 +1,9 @@
+@import "../../Styles/Helpers/Variables.scss";
+@import "../../Styles/Helpers/Functions.scss";
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  @include layout-primary;
+  border: none;
+}

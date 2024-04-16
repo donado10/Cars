@@ -1,0 +1,14 @@
+@import "../../../Styles/Helpers/Variables.scss";
+@import "../../../Styles/Helpers/Functions.scss";
+
+.ctas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $padding-layout--secondary;
+  gap: 1rem;
+}
+
+.btn {
+  @include button-card;
+}

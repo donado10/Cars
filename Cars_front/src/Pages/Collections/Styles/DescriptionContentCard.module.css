@@ -1,0 +1,14 @@
+.description {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description p {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 0.5rem;
+}/*# sourceMappingURL=DescriptionContentCard.module.css.map */

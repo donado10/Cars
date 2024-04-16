@@ -1,0 +1,11 @@
+@import "../../../Styles/Helpers/Variables.scss";
+@import "../../../Styles/Helpers/Functions.scss";
+
+.btns {
+  @include centered-content;
+  gap: $gap-content--primary;
+}
+
+.btn {
+  @include button-form;
+}
